@@ -92,7 +92,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='mnist experiment')
     parser.add_argument('--epochs', '-e', type=int, default=20)
     parser.add_argument('--batch_size', '-b', type=int, default=128)
-    parser.add_argument('--mc', action='store_true', help='Whether to use the MC Dropout model', default=True)
+    parser.add_argument('--mc', action='store_true', help='Whether to use the MC Dropout model')
     args_ = parser.parse_args()
 
     make_dirs()
