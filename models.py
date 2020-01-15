@@ -1,3 +1,8 @@
+"""
+Note that these models are based on 
+https://github.com/yaringal/DropoutUncertaintyCaffeModels/blob/master/mnist_uncertainty/lenet_all_dropout_deploy.prototxt
+rather than the original LeNet model.
+"""
 from keras import Input, Model
 from keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
 
